@@ -168,7 +168,7 @@ header {
 }
 
 .about-container {
-  height: 100vh;
+  min-height: 100vh;
   max-width: 700px;
   display: flex;
   flex-direction: column;
@@ -188,7 +188,7 @@ Layout (Thumbnails)
 }
 
 .thumbnail-collection {
-  height: 100vh;
+  min-height: 100vh;
   border: 0;
   border-top: 4.5rem solid black;
   display: -webkit-flex; /* Safari */
